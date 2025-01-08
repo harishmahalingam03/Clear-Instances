@@ -1,11 +1,11 @@
-![image](https://github.com/user-attachments/assets/6661aaa9-9d8e-41be-b980-4dee7e3bdbec)## Lambda code to terminate the unused instances on all regions in DEV account
+## Lambda code to terminate the unused instances on all regions in DEV account
 
 1. Account - DEV
 2. Region  - us-east-1
 3. Service - Lambda
 4. Name  - Clear- Instances
 
-### Description
+### Task Description
 
 The task is about to terminate all the instances which are running in the DEV enviroment after 8.00 pm. 
 This created lamda will terminate all the instances across all the regions in the dev account except TAG name of the instances starts or ends with AURA
@@ -102,7 +102,7 @@ cron(30 1 * * ? *)
 
 ## Step: 4
 
-Apply the test button as shown in the step 2 screen shot to see the instance changes. Verify the changes that instances are cleared/terminated.
+Apply the test button as shown in the step 2 screen shot to see the instant change. Verify the changes that instances are cleared/terminated.
 
 
 
